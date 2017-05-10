@@ -45,7 +45,7 @@ public class ContactActivity extends AppCompatActivity implements Callback<Conta
 
 
         MailchimpService mailchimpService = retrofit.create(MailchimpService.class);
-        Call<ContactResponse> call1 = mailchimpService.fetchContact("c979b38608e545ae7e432e4ce19c357e-us13",id);
+        Call<ContactResponse> call1 = mailchimpService.fetchContact("enter api key here # privacy issues # not shared",id);
         Log.d("CodeKamp", "is is " + id);
         Log.d("CodeKamp",id);
         call1.enqueue(this);                             //"31bac5bce8"
