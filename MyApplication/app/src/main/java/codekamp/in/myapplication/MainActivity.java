@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements Callback<ListResp
                 .build();
 
         MailchimpService mailchimpService = retrofit.create(MailchimpService.class);
-        Call<ListResponse> call = mailchimpService.fetchLists("c979b38608e545ae7e432e4ce19c357e-us13");
+        Call<ListResponse> call = mailchimpService.fetchLists("enter api kay here # not shared ");
         call.enqueue(this);
     }
 
